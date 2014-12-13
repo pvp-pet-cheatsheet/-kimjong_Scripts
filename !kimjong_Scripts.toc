@@ -1,0 +1,26 @@
+## Interface: 60003
+## Title: |cff009cffs|rArena
+## Notes: Better Interface.
+## Author: Stako
+## Version: 6.0
+
+## SavedVariables: sArenaDB
+
+tekKonfig\tekKonfig.xml
+
+kjArena.lua
+kjClassColorsArenaFrames.lua
+kjClassPortrait.lua
+kjDRTracker.lua
+kjEnemyCooldowns.lua
+kjFCTtweaks.lua
+kjNoPartyNameText.lua
+kjInterruptAnnouncer.lua
+kjInInCombat.lua
+kjMacro.lua
+kjMinimap.lua
+kjNoGriphons.lua
+kjNoLossOfControl.lua
+kjNoRedError.lua
+kjUnitFrames.lua
+kjOptions.lua

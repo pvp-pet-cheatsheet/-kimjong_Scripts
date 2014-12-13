@@ -1,0 +1,12 @@
+local frame = CreateFrame("FRAME", "DefaultUIScrips")
+frame:RegisterEvent("PLAYER_ENTERING_WORLD")
+     local function eventHandler(self, event, ...)
+        StopwatchFrame:Show()
+        StopwatchFrame:SetScale(.01)
+        StopwatchFrame:ClearAllPoints()
+        StopwatchFrame:SetPoint("TOPLEFT",23400,0)
+        StopwatchTicker:SetScale(100)
+        StopwatchTicker:SetPoint("TOPLEFT",0,-80)
+        StopwatchFrame:SetMovable(false)
+end
+frame:SetScript("OnEvent", eventHandler)

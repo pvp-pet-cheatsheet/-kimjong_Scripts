@@ -1,0 +1,2 @@
+/run h={PlayerFrame,TargetFrame,FocusFrame,PetFrame,MultiBarBottomLeft,MainMenuBar,MainMenuBarArtFrame,MultiBarBottomRight,MultiBarLeft,BuffFrame,Minimap,MinimapCluster,MultiBarRight,ArenaEnemyFrames,ArenaEnemyFrame1,ArenaEnemyFrame2,ArenaEnemyFrame3}
+/run for _,s in ipairs(h) do s:EnableMouse(false); c={s:GetChildren()}; for _,v in ipairs© do if(v) then v:EnableMouse(false); end end end

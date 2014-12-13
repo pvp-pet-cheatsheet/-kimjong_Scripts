@@ -1,0 +1,1 @@
+UIErrorsFrame:SetAlpha(0)

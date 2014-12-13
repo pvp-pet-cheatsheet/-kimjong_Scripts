@@ -1,0 +1,1 @@
+hooksecurefunc(PlayerFrameGroupIndicator, "Show", function(s) s:Hide() s.Show = s.Hide end)
